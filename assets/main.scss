@@ -368,7 +368,8 @@ p, h5 {
 .home-header {
   position: relative;
   margin-top: -25px;
-  color: $dark;
+  //color: $dark;
+  color: $light;
   background-size: cover;
   background-position: center;
   padding-top: $spacing-unit*1.25;
@@ -378,6 +379,7 @@ p, h5 {
   .home-header h2, .home-header h1 {
     position: relative;
     z-index: 2;
+    opacity: 1.0;
   }
 
   .onionskin {
@@ -499,4 +501,12 @@ iframe {
 .icon-disc i.material-icons, .media span.disc {
   font-size: 40px;
   border-radius: 50%;
+}
+
+#bannerimage_rck {
+  width: 100%;
+  background-image: url(https://github.com/robkelley15/indivisiblemn03.github.io/blob/master/_uploads/logo_large_indivisible_mncd3.png);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
 }
