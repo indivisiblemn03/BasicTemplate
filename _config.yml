@@ -57,7 +57,7 @@ defaults:
   values:
     main-image:
     mailchimp-form-embed:
-subtitle: Empowering ordinary citizens of Minnesota’s Third Congressional District to hold elected officials accountable.
+subtitle: 
 email:
 baseurl:
 url:
