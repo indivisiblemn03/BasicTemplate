@@ -362,12 +362,12 @@ p, h5 {
 .home-header-wrap {
   position: relative;
   //background-size: cover;
-  //background-size: contain;
-  background-size: 100%;
+  background-size: contain;
   //background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
+  height: 450px;
 }
 
 .home-header {
