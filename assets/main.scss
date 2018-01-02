@@ -374,6 +374,8 @@ p, h5 {
   color: $light;
   //background-size: cover;
   //background-size: contain;
+  background-size: auto;
+  background-repeat: no-repeat;
   background-position: center;
   padding-top: $spacing-unit*1.25;
   padding-bottom: $spacing-unit*1.15;
