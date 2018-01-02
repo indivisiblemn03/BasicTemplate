@@ -371,11 +371,12 @@ p, h5 {
   margin-top: -25px;
   //color: $dark;
   color: $light;
-  background-size: cover;
+  //background-size: cover;
+  background-size: contain;
   background-position: center;
   padding-top: $spacing-unit*1.25;
   padding-bottom: $spacing-unit*1.15;
-  height: 400px;
+  //height: 500px;
 }
 
   .home-header h2, .home-header h1 {
