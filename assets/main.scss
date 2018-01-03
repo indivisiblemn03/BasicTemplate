@@ -374,9 +374,9 @@ p, h5 {
   /* define mobile specific styles come here */
   .home-header-wrap {
     //position: relative;
-    //background-size: cover;
-    background-size: contain;
-    //background-repeat: no-repeat;
+    background-size: auto;
+    //background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     background-color: white;
     width: 75%;
