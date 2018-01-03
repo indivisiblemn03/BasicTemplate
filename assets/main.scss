@@ -368,24 +368,26 @@ p, h5 {
   background-position: center;
   background-color: white;
   height: 457px;
-  //height: 100%;
-  //width: 150%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* define mobile specific styles come here */
+  .home-header-wrap {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+  }
 }
 
 .home-header {
   position: relative;
   margin-top: -25px;
-  //color: $dark;
   color: $light;
-  //background-size: cover;
-  //background-size: contain;
-  //background-size: auto;
-  //background-repeat: no-repeat;
   background-position: center;
   padding-top: $spacing-unit*1.25;
   padding-bottom: $spacing-unit*1.15;
-  //height: 457px;
-  //width: 150%;
 }
 
   .home-header h2, .home-header h1 {
