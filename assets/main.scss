@@ -361,16 +361,32 @@ p, h5 {
 
 .home-header-wrap {
   position: relative;
-  background-size: cover;
+  //background-size: cover;
+  background-size: contain;
+  //background-size: auto;
+  background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
+  height: 457px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* define mobile specific styles come here */
+  .home-header-wrap {
+    //position: relative;
+    //background-size: cover;
+    background-size: contain;
+    //background-repeat: no-repeat;
+    //background-position: center;
+    background-color: white;
+    //width: 75%;
+  }
 }
 
 .home-header {
   position: relative;
   margin-top: -25px;
-  //color: $dark;
   color: $light;
-  background-size: cover;
   background-position: center;
   padding-top: $spacing-unit*1.25;
   padding-bottom: $spacing-unit*1.15;
@@ -389,7 +405,7 @@ p, h5 {
     display: block;
     top: 0;
     left: 0;
-    background: rgba(0,0,0,.7);
+    background: rgba(0,0,0,0);
   }
 
 .site-photos:nth-child(2n+1) {
@@ -501,12 +517,4 @@ iframe {
 .icon-disc i.material-icons, .media span.disc {
   font-size: 40px;
   border-radius: 50%;
-}
-
-#bannerimage_rck {
-  width: 100%;
-  background-image: url(/_uploads/logo_large_indivisible_mncd3.png);
-  height: 405px;
-  background-color: white;
-  background-position: center;
 }
