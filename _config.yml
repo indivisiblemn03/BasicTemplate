@@ -55,15 +55,15 @@ defaults:
     path: ''
     type: becomeAMember
   values:
-    main-image:
-    mailchimp-form-embed:
-subtitle:
-email:
-baseurl:
-url:
+    main-image: 
+    mailchimp-form-embed: 
+subtitle: 
+email: 
+baseurl: 
+url: 
 twitter_username: https://twitter.com/IndivisibleMN03
 facebook_username: https://www.facebook.com/groups/1846023959014280/
-background-image: "uploads/banner_indivisible_mn03_wide.png"
+background-image: uploads/banner_indivisible_mn03_wide.png
 member-count: 1600
 footer-title: Spread the word. Help build a movement.
 markdown: kramdown
