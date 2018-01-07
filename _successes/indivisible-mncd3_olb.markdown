@@ -1,5 +1,6 @@
 ---
-title: Paulsen Replaced by Indivisible MN CD3 at July 4th Parade
+title: NICE LOCAL RECOGNITION FOR THE OVERPASS LIGHT BRIGADE (OLB) TO START THE NEW
+  YEAR!
 date: 2018-01-07 17:00:00 Z
 is featured: false
 main-image: "/uploads/Edina_July4_parade.PNG"
