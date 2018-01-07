@@ -6,7 +6,7 @@ categories:
 tags:
 - meeting
 is featured: false
-main-image: "/uploads/_uploads\Petition-Hand-off.jpg"
+main-image: "/uploads/Petition-Hand-off.jpg"
 event-start-date: 2017-02-20 08:00:00 Z
 Location: Congressman Paulsen's District Office - Eden Prairie MN
 RSVP-link: http://facebook.com/event
