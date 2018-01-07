@@ -1,5 +1,5 @@
 ---
-title: 'Indivisible SF Meeting: Jan 30, 3pm'
+title: 'Constituents Petition Congressman to Hold a Town Hall Meeting'
 date: 2018-01-07 17:00:00 Z
 categories:
 - event
@@ -14,6 +14,7 @@ layout: post
 ---
 
 REPRESENTATIVE PAULSEN HAS NOT MET WITH HIS CONSTITUENTS IN AN OPEN, PUBLIC TOWN HALL MEETING SINCE 2011!
+
 Early in 2017, concerned constituent members of Indivisible MN03 delivered a petition to the Representative’s district office with 1868 signatures requesting him to hold public Town Hall Meetings (Petitions Ask Rep. Erik Paulsen to Host In-Person Town Hall Meetings).
 
 A group of constituents subsequently scheduled and organized a town hall meeting and invited Representative Paulsen to attend. He declined (Scenes from the ‘With or Without’ Erik Paulsen Town Hall).
