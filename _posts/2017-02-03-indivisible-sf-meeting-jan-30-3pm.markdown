@@ -1,22 +1,16 @@
 ---
-title: 'Constituents Petition Congressman to Hold a Town Hall Meeting'
-date: 2018-01-07 17:00:00 Z
+title: 'Indivisible SF Meeting: Jan 30, 3pm'
+date: 2017-02-03 07:10:00 Z
 categories:
 - event
 tags:
 - meeting
-is featured: true
-main-image: "/uploads/Petition-Hand-off-11.jpg"
-event-start-date: 2017-02-05 17:00:00 Z
-Location: Congressman Paulsen's District Office - Eden Prairie MN
+is featured: false
+main-image: "/uploads/Unknown.jpeg"
+event-start-date: 2017-02-05 19:30:00 Z
+Location: Women's Building - 512 Filmore St, San Francisco, CA
 RSVP-link: http://facebook.com/event
 layout: post
 ---
 
-REPRESENTATIVE PAULSEN HAS NOT MET WITH HIS CONSTITUENTS IN AN OPEN, PUBLIC TOWN HALL MEETING SINCE 2011!
-
-Early in 2017, concerned constituent members of Indivisible MN03 delivered a petition to the Representative’s district office with 1868 signatures requesting him to hold public Town Hall Meetings (Petitions Ask Rep. Erik Paulsen to Host In-Person Town Hall Meetings).
-
-A group of constituents subsequently scheduled and organized a town hall meeting and invited Representative Paulsen to attend. He declined (Scenes from the ‘With or Without’ Erik Paulsen Town Hall).
-
-It has been over six years since his last town hall meeting.
+This week's agenda will focus on congressional recess and town halls. Join in!
