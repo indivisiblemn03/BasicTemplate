@@ -2,14 +2,11 @@
 title: NICE LOCAL RECOGNITION FOR THE OVERPASS LIGHT BRIGADE (OLB) TO START THE NEW
   YEAR!
 date: 2018-01-07 17:00:00 Z
-is featured: false
+is featured: true
 main-image: "/uploads/Edina_July4_parade.PNG"
 layout: media-item
 ---
 
-CHECK OUT THE PRESS COVERAGE FROM THE EDINA 4TH OF JULY PARADE!
-INDIVISIBLE MN03 GOT LOCAL & NATIONAL ATTENTION FOR REPLACING REP. ERIK PAULSEN WHEN HE DIDN’T SHOW UP TO MARCH WITH HIS COMMUNITY.
+Indivisible members stand for Dreamers with light bridge brigade over I-494
 
-http://thehill.com/blogs/blog-briefing-room/news-lawmaker-news/340717-protestors-replace-gop-rep-who-didnt-walk-in-july
-
-http://minnesota.cbslocal.com/2017/07/04/erik-paulsen-parade-no-show/
+https://www.hometownsource.com/sun_current/indivisible-members-stand-for-dreamers-with-light-bridge-brigade-over/article_817f5228-efec-11e7-9479-df732cc78d50.html
