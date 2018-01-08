@@ -2,7 +2,7 @@
 title: Indivisible MN CD3 Replace Paulsen in July 4th Parade
 date: 2018-01-07 17:00:00 Z
 is featured: true
-main-image: "/uploads/OLB-Dream-Act.jpg"
+main-image: "/uploads/Edina_July4_parade.PNG"
 layout: media-item
 ---
 
