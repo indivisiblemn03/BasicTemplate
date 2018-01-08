@@ -1,6 +1,5 @@
 ---
-title: NICE LOCAL RECOGNITION FOR THE OVERPASS LIGHT BRIGADE (OLB) TO START THE NEW
-  YEAR!
+title: Indivisible MN CD3 Replace Paulsen in July 4th Parade
 date: 2018-01-07 17:00:00 Z
 is featured: true
 main-image: "/uploads/OLB-Dream-Act.jpg"
