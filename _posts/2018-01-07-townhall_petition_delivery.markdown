@@ -2,9 +2,8 @@
 title: Constituents Petition Congressman to Hold a Town Hall
 date: 2018-01-07 07:10:00 Z
 categories:
-- event
+- action
 tags:
-- meeting
 - take action
 is featured: false
 main-image: "/uploads/Petition-Hand-off.jpg"
