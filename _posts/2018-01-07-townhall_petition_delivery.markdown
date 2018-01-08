@@ -5,6 +5,7 @@ categories:
 - event
 tags:
 - meeting
+- take action
 is featured: false
 main-image: "/uploads/Petition-Hand-off.jpg"
 event-start-date: 2017-02-20 08:00:00 Z
