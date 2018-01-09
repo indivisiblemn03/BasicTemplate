@@ -3,7 +3,7 @@ title: NICE LOCAL RECOGNITION FOR THE OVERPASS LIGHT BRIGADE (OLB) TO START THE 
   YEAR!
 date: 2018-01-07 17:00:00 Z
 is featured: true
-main-image: "/uploads/Edina_July4_parade.PNG"
+main-image: "/uploads/OLB-Dream-Act.jpg"
 layout: media-item
 ---
 
