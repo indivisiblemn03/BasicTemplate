@@ -1,8 +1,9 @@
 ---
-position: 0
 title: About Us
+position: 0
 layout: default
 ---
+
 <div class="container">
   <div class="row">
     <div class="col-12">
