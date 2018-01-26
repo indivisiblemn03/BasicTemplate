@@ -29,71 +29,89 @@ layout: default
   <!-- HOMEPAGE BODY -->
   <div class="container">
 
-      <div class="hidden-sm-up mt-3 mb-3">
-        <a href="/become-a-member.html" class="btn btn-danger btn-block"><strong>Become a Member</strong></a>
+      <div class="hidden-sm-up">
+        <a href="/become-a-member.html" class="btn btn-danger btn-block">
+        	<strong>Become a Member</strong>
+				</a>
         {% if site.member-count %}
         <hr>
-        <h5 class="d-flex"><span class="mt-1"><strong>{{ site.member-count }} Members</strong></span> <a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>
+					<a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary">
+							<strong>Invite Members</strong>
+					</a>
+        </h5>
         {% endif %}
       </div>
-
-    <div class="row">
-      <div class="container">
-        <div class="container col-sm-8 mt-3">
-            <h3> WE WANT A REPRESENTATIVE WHO WILL:</h3>
-            <img src="uploads\townhall_blue_overlay.png"/>
-            <img src="uploads\hold_trump_accountable.jpg"/>
-            <h4 style="padding-top: 10px">Constituents Deserve to be Heard!</h4>
-            <p>Call Representative Erik Paulsen<br>District Office: (952) 405-8510<br>DC Office: (202) 225-2871</p>
-            <p>Indivisible was founded, after the 2016 election, to oppose: the Trump Agenda, the degradation of truth, and the rise of authoritarianism. The principles of Indivisible National are outlined in the Indivisible Guide.</p>
-            <p>Indivisible MN03 is a grassroots, constituent-led, all volunteer group made up of people across the political spectrum.  We were inspired by the national Indivisible movement, which uses constituent power to influence our legislators around the country and hold each Member of Congress accountable.</p>
-            <p>We resist the Trump Agenda by pressuring our member of Congress to support inclusion, tolerance, fairness and equality, and to stand up against corruption and authoritarianism.</p>
-            <p>Sign up to receive the newsletter and emails for major resistance events, and check out local groups to get more involved.</p>
-        </div>
-
-        <div class="spacer clearfix"></div>
-        <div class="spacer clearfix"></div>
-
+			<div class="row">
+				<div class="col-sm-12">
+					<p>Indivisible was founded, after the 2016 election, to oppose: the Trump Agenda, the degradation of truth, and the rise of authoritarianism. The principles of Indivisible National are outlined in the <a href="https://www.indivisibleguide.com/">Indivisible Guide</a>.</p>
+					<p>Indivisible MN03 is a grassroots, constituent-led, all volunteer group made up of people across the political spectrum.  We were inspired by the national Indivisible movement, which uses constituent power to influence our legislators around the country and hold each Member of Congress accountable.</p>
+					<p>We resist the Trump Agenda by pressuring our member of Congress to support inclusion, tolerance, fairness and equality, and to stand up against corruption and authoritarianism.</p>
+					<p>Sign up to receive the newsletter and emails for major resistance events, and check out local groups to get more involved.</p>
+					<h5>Who is Indivisible MN03?</h5>
+					<p>Our <a target="_blank" href="https://www.youtube.com/watch?v=v8_MMCQKbbU">video</a> highlights the normal people from all over our district who have been called to action.</p>
+					<hr/>
+				</div>
+   	  </div>	
+    	<div class="row">
+    		<div class="col-sm-12">
+					<h3 class="text-center">WE WANT A REPRESENTATIVE WHO WILL:</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6">
+					<img class="mx-auto d-block" src="uploads\townhall_blue_overlay.png"/>
+				</div>
+				<div class="col-sm-12 col-md-6">
+					<img class="mx-auto d-block" src="uploads\hold_trump_accountable.jpg"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 vertical-center-parent">
+					<h4 class="text-center vertical-center-child-md">Constituents Deserve to be Heard!</h4>
+				</div>
+				<div class="col-sm-12 col-md-6 text-center">
+					<strong>Call Representative Erik Paulsen:</strong><br>
+					District Office: (952) 405-8510<br>
+					DC Office: (202) 225-2871
+				</div>
+			</div>
       <!-- SUCCESSES AND MEMBER COUNT -->
-      <div class="col-sm-4">
-
-        <!-- MEMBER COUNT AND INVITE MEMBERS BUTTON -->
-        <div class="hidden-xs-down">
-          <hr class="mt-0 mb-4">
-          {% if site.member-count %}<h5 class="d-flex"><span class="mt-1">{{ site.member-count }} Members</span> {% endif %}<a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary"><strong>Invite Members</strong></a></h5>
-        </div>
-
+      <div class="row">
+				<div class="col-sm-12 hidden-xs-down text-center">
+				<!-- MEMBER COUNT AND INVITE MEMBERS BUTTON -->
+					<hr/>
+						<h5>
+							<a href="mailto:?subject=Join {{ site.title | escape }}&body=Join {{ site.url }} today!" class="btn btn-sm ml-auto btn-primary">
+								<strong >Invite Members</strong>
+							</a>
+						</h5>
+					<hr/>
+				</div>
+			</div>
+     {% if site.successes %}	
+			<div class="row">
         <!-- SUCCESSES -->
-        {% if site.successes %}
-          <div class="spacer"></div>
-          <hr class="mt-4 mb-3">
-          <h5 class="mb-2">Successes</h5>
-
-          {% assign featured_successes = (site.successes|where_exp:"successes","successes['is featured'] == true") %}
-          {% assign not_featured_successes = (site.successes|where_exp:"successes","successes['is featured'] == false") %}
-
-          {% for successes in featured_successes %}
-            <span class="badge badge-danger mb-2">PINNED</span>
-            {% include success-blurb.html %}
-          {% endfor %}
-
-          {% for successes in not_featured_successes %}
-            {% include success-blurb.html %}
-          {% endfor %}
-
-          <div class="pagination">
-            <a href="/successes.html" class="btn btn-link btn-flush ml-auto">More successes &rarr;</a>
-          </div>
-
-        {% endif %}
-
-      </div><!-- END TEAM MEDIA -->
-
+        <div class="col-sm-12">
+					<h5>Successes</h5>
+				</div>
+			</div>
+			<div class="row">
+				{% assign groups = site.successes|group_by_exp:"s","s['is featured']"|reverse %}
+				{% for group in groups %}
+					{% for success in group.items %}
+						<div class="col-sm-12 col-md-6">
+								<span class="badge badge-danger mb-2" {% if success['is featured'] == false %}style="visibility: hidden;"{% endif %}>PINNED</span>
+							{% include success-blurb.html %}
+						</div>
+					{% endfor %}
+				{% endfor %}
+			</div>
+			<div class="row">
+				<div class="col-sm-12 pagination">
+					<a href="/successes.html" class="btn btn-link btn-flush ml-auto">More successes &rarr;</a>
+				</div>
+			</div><!-- END TEAM MEDIA -->
+		  {% endif %}
     </div>
-
   </div>
-
-  <div class="spacer clearfix"></div>
-  <div class="spacer clearfix"></div>
-
 </div>

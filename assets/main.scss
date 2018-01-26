@@ -12,9 +12,9 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$primary:          #0057b8;
-$light:            #fff;
-$dark:             #003;
+$primary:          #242e63;
+$light:            #5c6dc4;
+$dark:             #10142b;
 
 $light-bg:         #fafafa;
 
@@ -40,7 +40,7 @@ $twitter:          #00aced;
 .bg-light { background: $light-bg!important; }
 
 a {
-  color: $primary;
+  color: $light;
 }
 
 a:hover, a:active {
@@ -532,4 +532,18 @@ text-align: center;
 display:inline-block;
 width: 45%;
 float: center;
+}
+
+//The easy way...
+.vertical-center-parent {
+  position: relative;
+
+  @media (min-width: 768px) {
+    .vertical-center-child-md {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+    }
+  }
 }
