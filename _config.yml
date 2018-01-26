@@ -55,12 +55,12 @@ defaults:
     path: ''
     type: becomeAMember
   values:
-    main-image: 
-    mailchimp-form-embed: 
-subtitle: 
-email: 
-baseurl: 
-url: 
+    main-image:
+    mailchimp-form-embed:
+subtitle:
+email: indivisiblemn03@gmail.com
+baseurl:
+url:
 twitter_username: "/IndivisibleMN03"
 facebook_username: "/groups/1846023959014280/"
 background-image: uploads/banner_indivisible_mn03_wide.png
