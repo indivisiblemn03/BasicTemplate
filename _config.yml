@@ -9,7 +9,7 @@ collections:
     title: Representatives
     output: false
   successes:
-    title: Media Attention
+    title: Successes
     output: true
   uploads:
     title: Uploads
