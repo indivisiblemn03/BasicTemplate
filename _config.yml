@@ -9,7 +9,7 @@ collections:
     title: Representatives
     output: false
   successes:
-    title: Successes
+    title: Media Attention
     output: true
   uploads:
     title: Uploads
@@ -63,7 +63,6 @@ baseurl:
 url:
 twitter_username: "/IndivisibleMN03"
 facebook_username: "/groups/1846023959014280/"
->>>>>>> master
 background-image: uploads/banner_indivisible_mn03_wide.png
 member-count: 1600
 footer-title: Spread the word. Help build a movement.
