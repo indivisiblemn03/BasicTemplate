@@ -8,8 +8,7 @@
     <a class="navbar-brand" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav d-flex flex-nowrap">
-          {% assign sorted_pages = site.pages | sort:"position" %}
-          {% assign sorted_pages = sorted_pages.remove('townhall') %}
+          {% assign sorted_pages = site.pages.remove('townhall') | sort:"position" %}
           {% for my_page in sorted_pages %}
            {% if my_page.title %}
             <li class="nav-item {% if my_page.url contains "become" %}join-btn ml-auto{% endif %}" {% if my_page.url contains "become" %}style="order: 3;"{% endif %}>
