@@ -56,7 +56,7 @@ defaults:
     type: becomeAMember
   values:
     main-image:
-    mailchimp-form-embed: newsletter
+    mailchimp-form-embed: newsletter.html
 - scope:
     path: ''
     type: townhall
