@@ -26,8 +26,8 @@ layout: default
           {% if page.mailchimp-form-embed %}
           <div class="row">
             <div class="col-sm-8 col-md-6">
-
-                {{ page.mailchimp-form-embed }}
+              
+                {% include {{ page.mailchimp-form-embed }} %}
 
              </div>
            </div>
