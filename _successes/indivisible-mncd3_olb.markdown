@@ -8,4 +8,4 @@ layout: media-item
 
 Indivisible members stand for Dreamers with light bridge brigade over I-494
 
-https://www.hometownsource.com/sun_current/indivisible-members-stand-for-dreamers-with-light-bridge-brigade-over/article_817f5228-efec-11e7-9479-df732cc78d50.html
+<a href="https://www.hometownsource.com/sun_current/indivisible-members-stand-for-dreamers-with-light-bridge-brigade-over/article_817f5228-efec-11e7-9479-df732cc78d50.html">IndivisibleMN03 Stands-up for DREAMERS</a>
