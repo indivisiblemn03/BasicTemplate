@@ -15,15 +15,16 @@ layout: default
       <div class="clearfix spacer"></div>
       <h5>Our board:</h5>
       <ul class="list-unstyled">
-        <li>Jena Martin Co-Chair</li>
-        <li>Laurie Wolfe Co-Chair</li>
-        <li>Helen McEvoy-Freese Treasurer</li>
-        <li>Suzanne Laing Secretary and Outreach</li>
-        <li>Dave Olson, Website</li>
-        <li>Barb Boldenow, Local Group leader</li>
-        <li>John Albers, Special projects</li>
-        <li>Clara McIver, FB administrator</li>
-        <li>Anita Smithson, Administration and Outreach</li>
+        <li>Jena Martin, Co-Chair</li>
+        <li>Laurie Wolfe, Co-Chair and IndivisibleMN03 Podcast Host</li>
+        <li>Helen McEvoy-Freese, Treasurer</li>
+        <li>Suzanne Laing, Secretary and Outreach</li>
+        <li>Dave Olson, Webmaster</li>
+        <li>Barb Boldenow, Local Groups Coordinator</li>
+        <li>John Albers, Special Projects</li>
+        <li>Clara McIver, At Large Member and #MoreThan50 project</li>
+        <li>Anita Smithson, At-Large Member and Light Brigade</li>
+        <li>Rob Wilcox, At-Large Member</li>
       </ul>
     </div>
   </div>
