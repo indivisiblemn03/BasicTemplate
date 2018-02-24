@@ -5,8 +5,40 @@ position: 500
 layout: local_chapters
 ---
 
-Members of our Indivisible Guide chapter are defined by our action and find solidarity in our shared opposition to Trump and Trumpism. Each of us explicitly reserves our individual stances on specific issues for other forums as we believe resisting Trump is more important than any single issue. We adhere to a Code of Conduct that welcomes and respects everybody.
+<p>Contact information for our local Indivisible chapters</p>
 
-Members of our Indivisible Guide chapter come from all kinds of backgrounds and political persuasions. Some of us are first-time activists and other have been at this for decades. We are citizens and noncitizens. Most importantly, we are all patriots that want the best for our country and are willing to work for it.
+Central & East Bloomington
+StandUpMBR@gmail.com
 
-**All are welcome.**
+West Bloomington
+W.BloomingtonIndivisible@gmail.com
+
+Chanhassen
+chanhassenindivisible@gmail.com
+
+Chaska
+chaskaindivisible@gmail.com
+
+Eden Prairie
+EPresisters@gmail.com
+
+Edina
+edinaindivisible@gmail.com
+
+South Lake Minnetonka
+Solamtkaindivisiblemn@gmail.com
+
+Wayzata
+wayzataindivisible@gmail.com
+
+Plymouth
+indivisiblemn03plymouth@gmail.com
+
+Maple Grove
+indivisiblenwm@gmail.com
+
+Minnetonka
+indivisible.mtka@gmail.com
+
+Brooklyn Park & Coon Rapids
+CD3Northside@gmail.com
