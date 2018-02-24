@@ -15,11 +15,11 @@ layout: default
 
       <div class="clearfix spacer"></div>
 
-      <a href="local_chapaters.html">Local Chapters</a>
+      <h3><a href="local_chapters.html">Local Chapters</a></h3>
 
       <div class="clearfix spacer"></div>
 
-      <h5>Our board:</h5>
+      <h3>Our board:</h3>
       <ul class="list-unstyled">
         <li>Jena Martin, Co-Chair</li>
         <li>Laurie Wolfe, Co-Chair and IndivisibleMN03 Podcast Host</li>
