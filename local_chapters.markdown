@@ -5,10 +5,10 @@ position: 500
 layout: local_chapters
 ---
 
-<p>Contact information for our local Indivisible chapters</p>
+<h3>Contact information for our local Indivisible chapters</h3>
 
-Central & East Bloomington
-StandUpMBR@gmail.com
+<h5>Central & East Bloomington</h5>
+<a href="mailto:StandUpMBR@gmail.com">StandUpMBR@gmail.com</a>
 
 West Bloomington
 W.BloomingtonIndivisible@gmail.com
