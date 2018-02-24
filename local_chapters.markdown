@@ -1,5 +1,5 @@
 ---
-title: Local Chapaters
+title: Local Chapters
 date: 2017-02-17 03:58:00 Z
 position: 500
 layout: local_chapters
