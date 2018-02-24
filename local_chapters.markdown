@@ -5,40 +5,40 @@ position: 500
 layout: local_chapters
 ---
 
-<h3>Contact information for our local Indivisible chapters</h3>
+<h3>Contact Information:</h3>
 
 <h5>Central & East Bloomington</h5>
 <a href="mailto:StandUpMBR@gmail.com">StandUpMBR@gmail.com</a>
 
-West Bloomington
-W.BloomingtonIndivisible@gmail.com
+<h5>West Bloomington</h5>
+<a href="mailto:W.BloomingtonIndivisible@gmail.com">W.BloomingtonIndivisible@gmail.com</a>
 
-Chanhassen
-chanhassenindivisible@gmail.com
+<h5>Chanhassen</h5>
+<a href="mailto:chanhassenindivisible@gmail.com">chanhassenindivisible@gmail.com</a>
 
-Chaska
-chaskaindivisible@gmail.com
+<h5>Chaska</h5>
+<a href="mailto:chaskaindivisible@gmail.com">chaskaindivisible@gmail.com</a>
 
-Eden Prairie
-EPresisters@gmail.com
+<h5>Eden Prairie</h5>
+<a href="mailto:EPresisters@gmail.com">EPresisters@gmail.com</a>
 
-Edina
-edinaindivisible@gmail.com
+<h5>Edina</h5>
+<a href="mailto:edinaindivisible@gmail.com">edinaindivisible@gmail.com</a>
 
-South Lake Minnetonka
-Solamtkaindivisiblemn@gmail.com
+<h5>South Lake Minnetonka</h5>
+<a href="mailto:Solamtkaindivisiblemn@gmail.com">Solamtkaindivisiblemn@gmail.com</a>
 
-Wayzata
-wayzataindivisible@gmail.com
+<h5>Wayzata</h5>
+<a href="mailto:wayzataindivisible@gmail.com">wayzataindivisible@gmail.com</a>
 
-Plymouth
-indivisiblemn03plymouth@gmail.com
+<h5>Plymouth</h5>
+<a href="mailto:indivisiblemn03plymouth@gmail.com">indivisiblemn03plymouth@gmail.com</a>
 
-Maple Grove
-indivisiblenwm@gmail.com
+<h5>Maple Grove</h5>
+<a href="mailto:indivisiblenwm@gmail.com">indivisiblenwm@gmail.com</a>
 
-Minnetonka
-indivisible.mtka@gmail.com
+<h5>Minnetonka</h5>
+<a href="mailto:indivisible.mtka@gmail.com">indivisible.mtka@gmail.com</a>
 
-Brooklyn Park & Coon Rapids
-CD3Northside@gmail.com
+<h5>Brooklyn Park & Coon Rapids</h5>
+<a href="mailto:CD3Northside@gmail.com">CD3Northside@gmail.com</a>
