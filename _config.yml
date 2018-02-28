@@ -20,12 +20,12 @@ defaults:
     type: posts
   values:
     is featured: false
-    main-image: 
-    call-script-text: 
-    event-start-date: 
-    event-end-date: 
-    Location: 
-    RSVP-link: 
+    main-image:
+    call-script-text:
+    event-start-date:
+    event-end-date:
+    Location:
+    RSVP-link:
     layout: post
 - scope:
     path: ''
@@ -38,40 +38,40 @@ defaults:
   values:
     phone-numbers:
       office-name: "(000) 000-0000"
-    website: 
+    website:
 - scope:
     path: ''
     type: successes
   values:
     is featured: false
-    main-image: 
+    main-image:
     layout: media-item
 - scope:
     path: ''
     type: calendar
   values:
-    embed-code: 
+    embed-code:
 - scope:
     path: ''
     type: becomeAMember
   values:
-    main-image: 
-    mailchimp-form-embed: 
+    main-image:
+    mailchimp-form-embed:
 - scope:
     path: ''
     type: townhall
   values:
-    main-image: 
+    main-image:
 - scope:
     path: ''
     type: local_chapters
   values:
-    main-image: 
-description: Website for Indivisible MN03.
-subtitle: 
+    main-image:
+description: We are INDIVISIBLE MN 03.
+subtitle:
 email: indivisiblemn03@gmail.com
-baseurl: 
-url: 
+baseurl:
+url:
 twitter_username: "/IndivisibleMN03"
 facebook_username: IndivisibleMN03
 background-image: uploads/banner_indivisible_mn03_wide.png
@@ -87,5 +87,5 @@ paginate_path: "/blog/page:num/"
 exclude:
 - Gemfile
 - Gemfile.lock
-google_analytics: 
+google_analytics:
 theme: jekyll-theme-cayman
