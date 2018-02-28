@@ -9,7 +9,8 @@
   <meta property="og:type"          content="website" />
   <meta property="og:title"         content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
   <meta property="og:description"   content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}" />
-  <meta property="og:image"         content="{% if page.main-image %}{{ site.url }}{{ page.main-image }}{% endif %}" />
+  <!-- <meta property="og:image"         content="{% if page.main-image %}{{ site.url }}{{ page.main-image }}{% endif %}" /> -->
+  <meta property="og:image"         content="https://indivisiblemn03.org/250px_MN_state_flag.png" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="INDIVISIBLE MN03" />
