@@ -67,6 +67,7 @@ defaults:
     type: local_chapters
   values:
     main-image: 
+description: Website for Indivisible MN03.
 subtitle: 
 email: indivisiblemn03@gmail.com
 baseurl: 
