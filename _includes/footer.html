@@ -20,6 +20,12 @@
         </li>
         {% endif %}
 
+        {% if site.youtube_username %}
+        <li class="nav-item">
+          {% include icon-youtube.html username=site.youtube_username %}
+        </li>
+        {% endif %}
+
         <li class="nav-item">
           <a class="nav-link" href="mailto:{{ site.email }}?subject=Join%20{{ site.title | escape }}"><i class="material-icons">mail_outline</i></a>
         </li>
