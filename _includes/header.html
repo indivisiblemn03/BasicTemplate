@@ -21,8 +21,6 @@
             {% endif %}
           {% endfor %}
 
-          <li class="nav-item"><a class="nav-link" href="mailto:{{ site.email }}">Contact</a></li>
-
           <li class="nav-item join-btn ml-auto" style="order: 3;">
             <a class="nav-link btn btn-danger text-white" title="...and my Button works!" href="https://secure.actblue.com/donate/indivisiblemn03">Donate</a>
           </li>
@@ -36,6 +34,12 @@
           {% if site.facebook_username %}
           <li class="nav-item">
             {% include icon-facebook.html username=site.facebook_username %}
+          </li>
+          {% endif %}
+
+          {% if site.email %}
+          <li class="nav-item">
+            {% include icon-mail.html username=site.email %}
           </li>
           {% endif %}
 
