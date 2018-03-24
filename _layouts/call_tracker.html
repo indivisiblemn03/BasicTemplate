@@ -1,36 +1,20 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<article class="post">
+  {% include head.html %}
 
+  <body>
 
-  <div class="container">
+    {% include header.html %}
 
-    {% if page.main-image %}
-      <div class="clearfix spacer-sm hidden-xs-down"></div>
-      <div class="bg-medium main-img-wrap clearfix">
-        <div class="header-image" style="background-image: url('{{ page.main-image }}')"></div>
-      </div>
-    {% endif %}
+    <main class="page-content" aria-label="Content">
 
-    <div class="clearfix spacer"></div>
-
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title | escape }}</h1>
-    </header>
-
-    <div class="clearfix spacer"></div>
-    <div class="clearfix spacer"></div>
-
-    <div class="row post-content">
-      <div class="col-sm-12">
         {{ content }}
-      </div>
-    </div>
-  </div>
 
-  <div class="clearfix spacer"></div>
-  <div class="clearfix spacer"></div>
+    </main>
 
-</article>
+    {% include footer.html %}
+
+  </body>
+
+</html>
