@@ -2,104 +2,20 @@
 layout: default
 ---
 
-  <div class="container">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center">Hold a Town Hall Meeting</h1>
+      <h3 class="text-center">Representative Paulsen has not with with his constituents in an open, public town hall meeting since 2011!</h3>
 
-    <div class="clearfix spacer"></div>
+      <img src="uploads\Petition-Hand-off.jpg">
 
-    <h1>{{ page.title | escape }}</h1>
+      <p class="text-center">Early in 2017, concerned constituent members of Indivisible MN03 delivered a petition to the Representative's district office with 1868 signatures requesting him to hold public Town Hall Meetings <a href="http://theuptake.org/2017/02/13/petitions-ask-rep-erik-paulsen-to-host-in-person-town-hall-meetings/">(Petitions Ask Rep. Erik Paulsen to Host In-Person Town Hall Meetings)</a>.</p>
 
-    <div class="clearfix spacer"></div>
+      <img src="uploads\petition-hand-off2.jpg">
 
-    <!-- BODY CONTENT -->
-    {% if content %}
-    <div class="row">
-      <div class="col-sm-7 col-md-6 col-lg-5">
-
-        {{ content }}
-
-        <div class="clearfix spacer"></div>
-
-      </div>
+      <p class="text-center">A group of constituents subsequently scheduled and organized a town hall meeting and invided Representative Paulse to attend.  He declined (Scenes from the 'With or Without' Erik Paulsen Town Hall).</h3>
+      <h3 class="text-center">It has been <b>over six years</b> since his last town hall meeting.</p>
     </div>
-    {% endif %}
-
-
-    <div class="row">
-
-      <div class="col-sm-8">
-
-        <!-- UPCOMING EVENTS -->
-        <h5 class="mb-0">Upcoming Events</h5>
-
-        <div class="post-list">
-
-          {% assign curDate = site.time | date: '%s' %}
-            {% for post in site.posts %}
-            {% assign postStartDate = post.event-start-date | date: '%s' %}
-            {% if postStartDate >= curDate %}
-              {% include event-post-header.html %}
-            {% endif %}
-          {% endfor %}
-
-        </div><!-- END UPCOMING EVENTS -->
-
-
-        <div class="clearfix spacer"></div>
-
-        <!-- CALENDAR EMBED -->
-        {% if page.embed-code %}
-
-          <div class="clearfix spacer"></div>
-
-          <h5 class="mb-0">Full Calendar</h5>
-          <hr class="mt-2 mb-2">
-
-          <div class="clearfix spacer-sm"></div>
-
-          {{ page.embed-code }}
-
-          <div class="clearfix spacer"></div>
-
-        {% endif %}
-
-        <!-- PAST EVENTS -->
-
-        <div class="clearfix spacer"></div>
-
-        <h5 class="mb-0">Past Events</h5>
-
-        {% unless site.categories.event.size > 0 %}
-          <hr class="mt-2 mb-2">
-          <p>No posts in {{ page.title | escape }} at this time.</p>
-        {% endunless %}
-
-        <div class="post-list">
-
-        {% assign curDate = site.time | date: '%s' %}
-        {% for post in site.categories.event %}
-          {% assign postStartDate = post.event-start-date | date: '%s' %}
-          {% if postStartDate <= curDate %}
-
-            {% include event-post-header.html %}
-
-          {% endif %}
-
-        {% endfor %}
-
-        </div><!-- END PAST EVENTS -->
-
-      </div> <!-- END LEFT COLUMN -->
-
-      <div class="col-sm-4">
-        <h5 class="mb-0">Suggest an Event</h5>
-        <hr class="mt-2 mb-2">
-        <p>Have an idea for an event? Want {{ site.title }} to co-host an event?</p>
-        <p><a class="btn btn-outline-primary" href="mailto:{{ site.email }}">Contact us</a></p>
-      </div>
-
-    </div><!-- END ROW -->
-
-  </div><!-- END CONTAINER -->
-
-  <div class="clearfix spacer"></div>
-  <div class="clearfix spacer"></div>
+  </div>
+</div>
