@@ -5,6 +5,17 @@ layout: default
 <div class="home">
   <!-- HOMEPAGE HEADER -->
 
+  <!-- Define a function to set cookies -->
+  <script>
+  function set_cookie ( cookie_name, cookie_value, lifespan_in_days, valid_domain )
+  {
+    var domain_string = valid_domain ? ("; domain=" + valid_domain) : '' ;
+    document.cookie = cookie_name + "=" + encodeURIComponent( cookie_value ) +
+        "; max-age=" + 60 * 60 * 24 * lifespan_in_days +
+        "; path=/" + domain_string ;
+  }
+  </script>
+
   <div class="clearfix home-header-wrap" {% if site.background-image %}style="background-image: url('{{ site.background-image }}')"{% endif %}>
 
     {% if site.background-image %}<div class="onionskin absolute"></div>{% endif %}
