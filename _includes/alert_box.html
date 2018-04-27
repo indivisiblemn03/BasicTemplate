@@ -1,0 +1,34 @@
+<alert-box data-target-page="{{include.targetPage}}">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 alert-box-body">
+                <b>{{include.title}}</b>
+                <div>{{include.remark}}</div>
+                <span class="closing-x">☒</span>
+            </div>
+        </div>
+    </div>
+</alert-box>
+<script type="text/javascript">
+    (function() {
+        function removeAlertBox() {
+            alertBox.parentElement.removeChild(alertBox);
+        }
+        
+        var val = localStorage['indivisiblemn03.alertbox'];
+        var alertBox = document.querySelector('alert-box');
+        if(val === alertBox.innerText)
+            removeAlertBox();
+        else
+            alertBox.addEventListener('click', function(){
+                localStorage['indivisiblemn03.alertbox'] = alertBox.innerText;
+                document.location = alertBox.getAttribute('data-target-page');
+            });
+            
+            alertBox.querySelector('.closing-x').addEventListener('click', function(e) {
+                e.stopPropagation();
+                localStorage['indivisiblemn03.alertbox'] = alertBox.innerText;
+                removeAlertBox();
+            });
+    })();        
+</script>

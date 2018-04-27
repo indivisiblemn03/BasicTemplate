@@ -559,3 +559,24 @@ float: center;
         border-right: solid black 1px;
     }
 }
+
+alert-box {
+    background: #e4002b; 
+    color: white;
+    display: block;
+    
+    .alert-box-body {
+        position: relative;
+        margin: 8px 0px;
+        cursor: pointer;
+    }
+    
+    .closing-x {
+        position: absolute;
+        right: 0px;
+        top: -0.5em;
+        color: black;
+        opacity: 0.3;
+        font-size: 2em;
+    }
+}
