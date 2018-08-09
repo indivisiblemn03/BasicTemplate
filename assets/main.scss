@@ -38,6 +38,7 @@ $twitter:          #00aced;
 .bg-dark { background-color: $grey-color-dark!important;}
 .bg-medium { background: $grey-color-light!important; }
 .bg-light { background: $light-bg!important; }
+.bg-danger { background-color: $danger!important; }
 
 a {
   color: $light;
@@ -552,9 +553,30 @@ float: center;
     border-top: solid black 1px;
     border-left: solid black 1px;
     margin-bottom: 1em;
-    
+
     > * > * {
         border-bottom: solid black 1px;
         border-right: solid black 1px;
+    }
+}
+
+alert-box {
+    background: #e4002b; 
+    color: white;
+    display: block;
+    
+    .alert-box-body {
+        position: relative;
+        margin: 8px 0px;
+        cursor: pointer;
+    }
+    
+    .closing-x {
+        position: absolute;
+        right: 0px;
+        top: -0.5em;
+        color: black;
+        opacity: 0.3;
+        font-size: 2em;
     }
 }
