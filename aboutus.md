@@ -26,9 +26,9 @@ layout: default
         <li>Helen McEvoy-Freese, Treasurer</li>
         <li>Suzanne Laing, Secretary and Outreach</li>
         <li>Dave Olson, Webmaster</li>
-        <li>Barb Boldenow, Local Groups Coordinator</li>
+        <li>Patrick Brown, At-Large Member</li>
         <li>John Albers, Special Projects</li>
-        <li>Clara McIver, At Large Member and #MoreThan50 project</li>
+        <li>Clara McIver, At-Large Member and #MoreThan50 project</li>
         <li>Anita Smithson, At-Large Member and Light Brigade</li>
         <li>Rob Wilcox, At-Large Member</li>
       </ul>
