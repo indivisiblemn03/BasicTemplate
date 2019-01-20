@@ -24,13 +24,12 @@ layout: default
         <li>Jena Martin, Co-Chair</li>
         <li>Laurie Wolfe, Co-Chair and IndivisibleMN03 Podcast Host</li>
         <li>Helen McEvoy-Freese, Treasurer</li>
-        <li>Suzanne Laing, Secretary and Outreach</li>
+        <li>Clara McIver, Secretary</li>
+        <li>Anita Smithson, Communications Director</li>
+        <li>Lisa Buck, Events Director</li>
+        <li>Suzanne Laing, Outreach Director</li>
+        <li>Martha McNey, Promotions Director</li>
         <li>Dave Olson, Webmaster</li>
-        <li>Patrick Brown, At-Large Member</li>
-        <li>John Albers, Special Projects</li>
-        <li>Clara McIver, At-Large Member and #MoreThan50 project</li>
-        <li>Anita Smithson, At-Large Member and Light Brigade</li>
-        <li>Rob Wilcox, At-Large Member</li>
       </ul>
     </div>
   </div>
