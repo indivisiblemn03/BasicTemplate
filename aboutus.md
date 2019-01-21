@@ -27,7 +27,6 @@ layout: default
         <li>Clara McIver, Secretary</li>
         <li>Anita Smithson, Communications Director</li>
         <li>Lisa Buck, Events Director</li>
-        <li>Suzanne Laing, Outreach Director</li>
         <li>Martha McNey, Promotions Director</li>
         <li>Dave Olson, Webmaster</li>
       </ul>
