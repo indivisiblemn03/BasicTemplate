@@ -9,6 +9,7 @@
         <ul class="navbar-nav d-flex flex-nowrap">
           {% assign sorted_pages = site.pages | sort:"position" %}
           {% for my_page in sorted_pages %}
+            {% if my_page.title != "Paulsen Votes with Trump" %}
             {% if my_page.title != "Hold A Town Hall Meeting" %}
             {% if my_page.title != "Local Chapters" %}
             {% if my_page.title != "Contact Tracker" %}
